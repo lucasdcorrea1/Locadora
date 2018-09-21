@@ -1,0 +1,45 @@
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\bin\Debug\locadora.exe.config
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\bin\Debug\locadora.exe
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\bin\Debug\locadora.pdb
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\bin\Debug\locadora.xml
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\obj\Debug\locadora.vbprojResolveAssemblyReference.cache
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\obj\Debug\locadora.Form1.resources
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\obj\Debug\locadora.Resources.resources
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\obj\Debug\locadora.vbproj.GenerateResource.Cache
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\obj\Debug\locadora.exe
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\obj\Debug\locadora.xml
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\obj\Debug\locadora.pdb
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\obj\Debug\locadora.frmprincipal.resources
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\obj\Debug\locadora.frmcadfilmes.resources
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\obj\Debug\locadora.frmcadfuncionarios.resources
+c:\users\lucas.dcorrea1\documents\visual studio 2015\Projects\locadora\locadora\obj\Debug\locadora.frmclientes.resources
+C:\Users\Lucas\source\repos\locadora\locadora\bin\Debug\locadora.exe.config
+C:\Users\Lucas\source\repos\locadora\locadora\bin\Debug\locadora.exe
+C:\Users\Lucas\source\repos\locadora\locadora\bin\Debug\locadora.pdb
+C:\Users\Lucas\source\repos\locadora\locadora\bin\Debug\locadora.xml
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.vbprojResolveAssemblyReference.cache
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.Form1.resources
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.frmcadfilmes.resources
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.frmcadfuncionarios.resources
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.frmclientes.resources
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.frmprincipal.resources
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.Resources.resources
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.vbproj.GenerateResource.cache
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.vbproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.exe
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.xml
+C:\Users\Lucas\source\repos\locadora\locadora\obj\Debug\locadora.pdb
+E:\locadora\locadora\bin\Debug\locadora.exe.config
+E:\locadora\locadora\obj\Debug\locadora.exe
+E:\locadora\locadora\obj\Debug\locadora.xml
+E:\locadora\locadora\obj\Debug\locadora.pdb
+C:\Users\lucas.dcorrea1\Documents\Visual Studio 2015\Projects\locadora\locadora\obj\Debug\locadora.frmbuscarcliente.resources
+C:\Users\lucas.dcorrea1\Documents\Visual Studio 2015\Projects\locadora\locadora\obj\Debug\locadora.locacao.resources
+T:\Publica\Turma 35\locadora\locadora\bin\Debug\locadora.exe.config
+T:\Publica\Turma 35\locadora\locadora\obj\Debug\locadora.exe
+T:\Publica\Turma 35\locadora\locadora\obj\Debug\locadora.xml
+T:\Publica\Turma 35\locadora\locadora\obj\Debug\locadora.pdb
+C:\Users\lucas.dcorrea1\Desktop\locadora\locadora\bin\Debug\locadora.exe.config
+C:\Users\lucas.dcorrea1\Desktop\locadora\locadora\obj\Debug\locadora.exe
+C:\Users\lucas.dcorrea1\Desktop\locadora\locadora\obj\Debug\locadora.xml
+C:\Users\lucas.dcorrea1\Desktop\locadora\locadora\obj\Debug\locadora.pdb
