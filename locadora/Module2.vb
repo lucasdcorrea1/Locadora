@@ -7,8 +7,8 @@ Module Module2
     Private IDFUNCIONARIO As Integer
     Private NOMEFUNCIONARIO As String
     Public Sub setStr()
-        STRCON = "Data Source=10.64.46.26,1433;Initial Catalog=LOCADORA;"
-        STRCON = STRCON & "User Id=Sa;Password=123456"
+        STRCON = "Data Source=LAPTOP-4AHMN2DM\SQLSERVER;Initial Catalog=locadora;"
+        STRCON = STRCON & "User Id=Sa;Password=cloudmed"
 
     End Sub
     Public Sub setCON()

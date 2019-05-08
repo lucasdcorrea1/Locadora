@@ -29,35 +29,35 @@ Partial Class Form1
         Me.txtusuario = New System.Windows.Forms.TextBox()
         Me.txtsenha = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.SuspendLayout
         '
         'PictureBox1
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(47, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(170, Byte), Integer))
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(47,Byte),Integer), CType(CType(147,Byte),Integer), CType(CType(170,Byte),Integer))
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"),System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(-36, -114)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(878, 756)
         Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.TabStop = false
         '
         'btnentrar
         '
-        Me.btnentrar.BackColor = System.Drawing.Color.FromArgb(CType(CType(1, Byte), Integer), CType(CType(14, Byte), Integer), CType(CType(30, Byte), Integer))
-        Me.btnentrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnentrar.Image = CType(resources.GetObject("btnentrar.Image"), System.Drawing.Image)
-        Me.btnentrar.Location = New System.Drawing.Point(298, 498)
+        Me.btnentrar.BackColor = System.Drawing.Color.FromArgb(CType(CType(1,Byte),Integer), CType(CType(14,Byte),Integer), CType(CType(30,Byte),Integer))
+        Me.btnentrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.btnentrar.Image = CType(resources.GetObject("btnentrar.Image"),System.Drawing.Image)
+        Me.btnentrar.Location = New System.Drawing.Point(331, 506)
         Me.btnentrar.Name = "btnentrar"
-        Me.btnentrar.Size = New System.Drawing.Size(252, 79)
+        Me.btnentrar.Size = New System.Drawing.Size(188, 56)
         Me.btnentrar.TabIndex = 1
-        Me.btnentrar.UseVisualStyleBackColor = False
+        Me.btnentrar.UseVisualStyleBackColor = false
         '
         'Usuarios
         '
-        Me.Usuarios.AutoSize = True
-        Me.Usuarios.BackColor = System.Drawing.Color.FromArgb(CType(CType(223, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(58, Byte), Integer))
-        Me.Usuarios.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Usuarios.AutoSize = true
+        Me.Usuarios.BackColor = System.Drawing.Color.FromArgb(CType(CType(223,Byte),Integer), CType(CType(33,Byte),Integer), CType(CType(58,Byte),Integer))
+        Me.Usuarios.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Usuarios.Location = New System.Drawing.Point(201, 379)
         Me.Usuarios.Name = "Usuarios"
         Me.Usuarios.Size = New System.Drawing.Size(60, 18)
@@ -80,9 +80,9 @@ Partial Class Form1
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(118, Byte), Integer), CType(CType(180, Byte), Integer))
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.AutoSize = true
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(70,Byte),Integer), CType(CType(118,Byte),Integer), CType(CType(180,Byte),Integer))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Label2.Location = New System.Drawing.Point(522, 379)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(50, 18)
@@ -91,9 +91,9 @@ Partial Class Form1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(47, Byte), Integer), CType(CType(147, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(47,Byte),Integer), CType(CType(147,Byte),Integer), CType(CType(170,Byte),Integer))
         Me.ClientSize = New System.Drawing.Size(876, 654)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtsenha)
@@ -103,11 +103,11 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit
+        Me.ResumeLayout(false)
+        Me.PerformLayout
 
-    End Sub
+End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents btnentrar As Button

@@ -48,15 +48,15 @@ Partial Class locacao
         Me.Label6 = New System.Windows.Forms.Label()
         Me.lblvalor = New System.Windows.Forms.Label()
         lbltotal = New System.Windows.Forms.Label()
-        Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        CType(Me.dtgfilmes, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
+        Me.GroupBox1.SuspendLayout
+        Me.GroupBox2.SuspendLayout
+        CType(Me.dtgfilmes,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.SuspendLayout
         '
         'lbltotal
         '
-        lbltotal.AutoSize = True
-        lbltotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        lbltotal.AutoSize = true
+        lbltotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         lbltotal.Location = New System.Drawing.Point(680, 470)
         lbltotal.Name = "lbltotal"
         lbltotal.Size = New System.Drawing.Size(45, 18)
@@ -73,12 +73,12 @@ Partial Class locacao
         Me.GroupBox1.Controls.Add(Me.lblcliente)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(875, 151)
         Me.GroupBox1.TabIndex = 0
-        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.TabStop = false
         Me.GroupBox1.Text = "Dados da locação"
         '
         'Button1
@@ -89,11 +89,11 @@ Partial Class locacao
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(49, 53)
         Me.Button1.TabIndex = 7
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = true
         '
         'ImageList1
         '
-        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"),System.Windows.Forms.ImageListStreamer)
         Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
         Me.ImageList1.Images.SetKeyName(0, "atualizar.png")
         Me.ImageList1.Images.SetKeyName(1, "buscar.png")
@@ -106,7 +106,7 @@ Partial Class locacao
         '
         Me.txtcliente.Location = New System.Drawing.Point(140, 53)
         Me.txtcliente.Name = "txtcliente"
-        Me.txtcliente.ReadOnly = True
+        Me.txtcliente.ReadOnly = true
         Me.txtcliente.Size = New System.Drawing.Size(69, 24)
         Me.txtcliente.TabIndex = 6
         '
@@ -114,14 +114,14 @@ Partial Class locacao
         '
         Me.txtnumero.Location = New System.Drawing.Point(19, 54)
         Me.txtnumero.Name = "txtnumero"
-        Me.txtnumero.ReadOnly = True
+        Me.txtnumero.ReadOnly = true
         Me.txtnumero.Size = New System.Drawing.Size(112, 24)
         Me.txtnumero.TabIndex = 5
         '
         'lbldata
         '
-        Me.lbldata.AutoSize = True
-        Me.lbldata.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.lbldata.AutoSize = true
+        Me.lbldata.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6,Byte),Integer), CType(CType(89,Byte),Integer), CType(CType(125,Byte),Integer))
         Me.lbldata.Location = New System.Drawing.Point(643, 86)
         Me.lbldata.Name = "lbldata"
         Me.lbldata.Size = New System.Drawing.Size(39, 18)
@@ -130,9 +130,9 @@ Partial Class locacao
         '
         'Label4
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.Label4.AutoSize = true
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6,Byte),Integer), CType(CType(89,Byte),Integer), CType(CType(125,Byte),Integer))
         Me.Label4.Location = New System.Drawing.Point(634, 54)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(39, 18)
@@ -141,9 +141,9 @@ Partial Class locacao
         '
         'lblcliente
         '
-        Me.lblcliente.AutoSize = True
-        Me.lblcliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblcliente.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.lblcliente.AutoSize = true
+        Me.lblcliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.lblcliente.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6,Byte),Integer), CType(CType(89,Byte),Integer), CType(CType(125,Byte),Integer))
         Me.lblcliente.Location = New System.Drawing.Point(215, 60)
         Me.lblcliente.Name = "lblcliente"
         Me.lblcliente.Size = New System.Drawing.Size(184, 18)
@@ -152,9 +152,9 @@ Partial Class locacao
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.Label2.AutoSize = true
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6,Byte),Integer), CType(CType(89,Byte),Integer), CType(CType(125,Byte),Integer))
         Me.Label2.Location = New System.Drawing.Point(137, 31)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(53, 18)
@@ -163,8 +163,8 @@ Partial Class locacao
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.AutoSize = true
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Label1.Location = New System.Drawing.Point(16, 31)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(62, 18)
@@ -183,22 +183,22 @@ Partial Class locacao
         Me.GroupBox2.Controls.Add(Me.Label9)
         Me.GroupBox2.Controls.Add(Me.Label8)
         Me.GroupBox2.Controls.Add(Me.Label6)
-        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(12, 169)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(875, 277)
         Me.GroupBox2.TabIndex = 1
-        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.TabStop = false
         Me.GroupBox2.Text = "Fimes Locação"
         '
         'dtgfilmes
         '
-        Me.dtgfilmes.AllowUserToAddRows = False
-        Me.dtgfilmes.AllowUserToDeleteRows = False
+        Me.dtgfilmes.AllowUserToAddRows = false
+        Me.dtgfilmes.AllowUserToDeleteRows = false
         Me.dtgfilmes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dtgfilmes.Location = New System.Drawing.Point(19, 121)
         Me.dtgfilmes.Name = "dtgfilmes"
-        Me.dtgfilmes.ReadOnly = True
+        Me.dtgfilmes.ReadOnly = true
         Me.dtgfilmes.Size = New System.Drawing.Size(835, 150)
         Me.dtgfilmes.TabIndex = 12
         '
@@ -210,7 +210,7 @@ Partial Class locacao
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(49, 50)
         Me.Button3.TabIndex = 11
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = true
         '
         'Button2
         '
@@ -220,7 +220,7 @@ Partial Class locacao
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(49, 50)
         Me.Button2.TabIndex = 8
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = true
         '
         'txtvalor
         '
@@ -238,9 +238,9 @@ Partial Class locacao
         '
         'lblfilme
         '
-        Me.lblfilme.AutoSize = True
-        Me.lblfilme.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblfilme.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6, Byte), Integer), CType(CType(89, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.lblfilme.AutoSize = true
+        Me.lblfilme.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.lblfilme.ForeColor = System.Drawing.Color.FromArgb(CType(CType(6,Byte),Integer), CType(CType(89,Byte),Integer), CType(CType(125,Byte),Integer))
         Me.lblfilme.Location = New System.Drawing.Point(215, 89)
         Me.lblfilme.Name = "lblfilme"
         Me.lblfilme.Size = New System.Drawing.Size(173, 18)
@@ -256,8 +256,8 @@ Partial Class locacao
         '
         'Label9
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.AutoSize = true
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Label9.Location = New System.Drawing.Point(550, 60)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(42, 18)
@@ -266,8 +266,8 @@ Partial Class locacao
         '
         'Label8
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.AutoSize = true
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Label8.Location = New System.Drawing.Point(397, 60)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(40, 18)
@@ -276,8 +276,8 @@ Partial Class locacao
         '
         'Label6
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.AutoSize = true
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Label6.Location = New System.Drawing.Point(16, 60)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(44, 18)
@@ -286,8 +286,8 @@ Partial Class locacao
         '
         'lblvalor
         '
-        Me.lblvalor.AutoSize = True
-        Me.lblvalor.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblvalor.AutoSize = true
+        Me.lblvalor.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.lblvalor.ForeColor = System.Drawing.Color.Red
         Me.lblvalor.Location = New System.Drawing.Point(814, 470)
         Me.lblvalor.Name = "lblvalor"
@@ -297,7 +297,7 @@ Partial Class locacao
         '
         'locacao
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(902, 508)
@@ -307,15 +307,15 @@ Partial Class locacao
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "locacao"
         Me.Text = "locacao"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        CType(Me.dtgfilmes, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        Me.GroupBox1.ResumeLayout(false)
+        Me.GroupBox1.PerformLayout
+        Me.GroupBox2.ResumeLayout(false)
+        Me.GroupBox2.PerformLayout
+        CType(Me.dtgfilmes,System.ComponentModel.ISupportInitialize).EndInit
+        Me.ResumeLayout(false)
+        Me.PerformLayout
 
-    End Sub
+End Sub
 
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
